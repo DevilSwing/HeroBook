@@ -5,7 +5,7 @@ export default class Navbar extends Component {
 	render() {
 		return(
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			  <a className="navbar-brand" href="#">{this.props.appName}</a>
+			  <Link to="/" className="navbar-brand" href="#">{this.props.appName}</Link>
 
 			  <div className="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul className="navbar-nav mr-auto">
@@ -13,10 +13,13 @@ export default class Navbar extends Component {
 			        <Link to="/addHero" className="nav-link">AddHero</Link>
 			      </li>
 			      <li className="nav-item">
-			        <link to="/settings" className="nav-link">Settings</link>
+			        <Link to="/settings" className="nav-link">Settings</Link>
 			      </li>
 			      <li className="nav-item">
-			        <link to="/heroPics" className="nav-link">HeroPics</link>
+			        <Link to="/heroPics" className="nav-link">HeroPics</Link>
+			      </li>
+			       <li className="nav-item">
+			        <Link to="/astral" className="nav-link">Astral</Link>
 			      </li>
 			    </ul>
 			  </div>
