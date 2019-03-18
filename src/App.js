@@ -19,20 +19,22 @@ class App extends Component {
                 {
                     name: 'BUZIPOOP',
                     desc: 'Warrior from Hell',
-                    img: URl:"https://pravlife.org/sites/default/files/field/image/12351264_895057263934869_1317736920_n.jpg"
+                    img: 'https://pravlife.org/sites/default/files/field/image/12351264_895057263934869_1317736920_n.jpg'
                 },
                 {
                     name: 'Damir',
-                    desc: 'Warrior from Jorlandia'
-                    img: URl:"https://pravlife.org/sites/default/files/field/image/12351264_895057263934869_1317736920_n.jpg"
+                    desc: 'Warrior from Jorlandia',
+                    img: 'https://pravlife.org/sites/default/files/field/image/12351264_895057263934869_1317736920_n.jpg'
                 },
                 {
                     name: 'Kudgyt',
-                    desc: 'Warrior from Beer'
+                    desc: 'Warrior from Beer',
+                    img: 'https://pravlife.org/sites/default/files/field/image/12351264_895057263934869_1317736920_n.jpg'
                 },
                 {
                     name: 'Prorab',
-                    desc: 'Warrior from Stroyka'
+                    desc: 'Warrior from Stroyka',
+                    img: 'https://pravlife.org/sites/default/files/field/image/12351264_895057263934869_1317736920_n.jpg'
                 }
 
             ]
