@@ -49,7 +49,8 @@ class App extends Component {
                 <Navbar appName={this.state.appName}/>
                 <Route exact path="/"
                     render={(props) => <HeroList heroes={this.state.heroList}/>}/>
-
+                <Route path="/heroPics" component={HeroPics}/>
+                <Route path="/addHero" component={AddHero}/>
                 <Route path="/settings" component={Settings}/>
                 <Route path="/astral" component={Astral}/>
             </>
